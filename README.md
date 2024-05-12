@@ -1,4 +1,5 @@
-# Smart-Workers-Tracking-System-Using-Computer-Vision
+# SMART CONSTRUCTION WORKERS TRACKING SYSTEM USING COMPUTER VISION
+
 
 ## Introduction
 The construction industry, characterized by its ever-evolving landscapes and high-risk activities, is a sector where safety and efficiency are Adjective. It is a field that demands constant caution, as workers navigate through a plenty of potential hazards daily. 
@@ -60,7 +61,29 @@ The proposed system is implemented through these nine stages:
 
 ## Datasets collection
 
-Have got access to a good dataset which is uner the name POLAR: Posture-level Action Recognition Dataset (https://data.mendeley.com/datasets/hvnsh7rwz7/1)
+Have got access to a good dataset which is uner the name POLAR: Posture-level Action Recognition Dataset (https://data.mendeley.com/datasets/hvnsh7rwz7/1) used it to bulid a model using YOLOV8 that detect motion and actions of the workers at the site.
 
 It has nine 9 categories ("bending", "jumping", "lying", "running", "sitting", "squatting", "standing", "stretching" and "walking") directly related to human pose with a total of 35,324 images and covers 99% of posture-level human actions in daily life according to authors' analysis on the VOC dataset.
+
+The other dataset is from kaggle which is for construction Personal Protective Equipments. (https://www.kaggle.com/datasets/snehilsanyal/construction-site-safety-image-dataset-roboflow)
+
+I have used 1500 images to build model to detect the PPE.
+
+## The Results 
+
+The system has used Jetsno Nano and Arducam 8 MP Sony IMX219 camera: to test the models and see the results.
+
+Results video : https://www.youtube.com/watch?v=EkbhE7FkK6o&feature=youtu.be
+
+![image](https://github.com/moha-55/Smart-Workers-Tracking-System-Using-Computer-Vision/assets/121754960/c9b1708d-edbd-418d-8a3f-9f998fe47ec2)
+
+![image](https://github.com/moha-55/Smart-Workers-Tracking-System-Using-Computer-Vision/assets/121754960/f66d3f97-8270-4b3d-8ef6-8e9e2c16cd5a)
+
+The system is divided into to codes and two models, the safety model is to track the workers and detect their safety with samll dashboard that gives the number of workers and warning if there is somethng wrong.
+![image](https://github.com/moha-55/Smart-Workers-Tracking-System-Using-Computer-Vision/assets/121754960/8a6daa89-da0e-457f-ab68-a6afb1ed39a7)
+
+
+The second model is motion model to detect the motion of the workers, which are 5 types of motion (Run, walk, Lie, Sit, and stand) with samll dashboard that gives the number of workers and warning if there is somethng wrong.
+![image](https://github.com/moha-55/Smart-Workers-Tracking-System-Using-Computer-Vision/assets/121754960/1fc3ea7c-39de-410e-a06c-845fd25b13c5)
+
 
