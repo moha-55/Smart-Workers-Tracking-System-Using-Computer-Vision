@@ -55,4 +55,12 @@ The proposed system is implemented through these nine stages:
 ![image](https://github.com/moha-55/Smart-Workers-Tracking-System-Using-Computer-Vision/assets/121754960/dec6f595-1d31-428e-a2f4-095e5636af48)
 
 
+![image](https://github.com/moha-55/Smart-Workers-Tracking-System-Using-Computer-Vision/assets/121754960/b5186a0d-9cd7-4b58-96ca-d6f129e90ecd)
+
+
+## Datasets collection
+
+Have got access to a good dataset which is uner the name POLAR: Posture-level Action Recognition Dataset (https://data.mendeley.com/datasets/hvnsh7rwz7/1)
+
+It has nine 9 categories ("bending", "jumping", "lying", "running", "sitting", "squatting", "standing", "stretching" and "walking") directly related to human pose with a total of 35,324 images and covers 99% of posture-level human actions in daily life according to authors' analysis on the VOC dataset.
 
