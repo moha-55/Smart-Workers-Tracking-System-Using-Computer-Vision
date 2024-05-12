@@ -24,8 +24,27 @@ Behavioral Monitoring Challenges: The diversity in worker behavior and interacti
 
 ## The Objectives of this project
 
-*To track construction workers at the site and detect their safety.
+*To track construction workers at the site and detect their safety.*
 
-To build motion profile of each worker based on the tracked recorded.
+*To build motion profile of each worker based on the tracked recorded.*
 
-To construct metrices to classify the safety of the workers.*
+*To construct metrices to classify the safety of the workers.*
+
+## Methodolgy 
+
+The proposed system is implemented through these nine stages: 
+
+1- Collect the dataset for workers, safety vests, hard hats, and motion.
+2- Preprocess and label the dataset.
+3- Train the first model using the dataset to track workers and detect their safety.
+4- Test the first model on videos.
+5- Train the second model to detect motion of the workers.
+6-Test the second model on videos.
+7- Classify the safety of the workers through the dashboard.
+8- Hardware implementation using Jetson Nano and the camera.
+9- Evaluate the system in real cases.
+
+![image](https://github.com/moha-55/Smart-Workers-Tracking-System-Using-Computer-Vision/assets/121754960/dec6f595-1d31-428e-a2f4-095e5636af48)
+
+
+
