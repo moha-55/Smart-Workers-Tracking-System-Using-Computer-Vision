@@ -22,4 +22,8 @@ Safety Gear Non-Compliance: Inconsistent use of essential safety equipment like 
 Behavioral Monitoring Challenges: The diversity in worker behavior and interactions on construction sites complicates effective safety and efficiency monitoring.
 
 
-## Th
+## The Objectives of this project
+
+*To track construction workers at the site and detect their safety.
+To build motion profile of each worker based on the tracked recorded.
+To construct metrices to classify the safety of the workers.*
